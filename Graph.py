@@ -37,7 +37,7 @@ def Functions(x,xn :list):
     sum_y = 0
     for i in range(len(xn)):
         
-        x_ = xn[i] * (x ** i) 
+        x_ = xn[i] * pow(x,i) 
         
         sum_y += x_
 
